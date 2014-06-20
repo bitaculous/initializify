@@ -3,8 +3,16 @@
 
 **Put in the condition appropriate to the start of an operation.**
 
+[Initializify](http://bitaculous.github.io/initializify "Put in the condition appropriate to the start of an operation.")
+loads all ruby files in `config/initializers` like [Rails](http://rubyonrails.org "Ruby on Rails").
+
 [![Travis CI Status](https://travis-ci.org/bitaculous/initializify.svg)](http://travis-ci.org/bitaculous/initializify)
 [![Gemnasium Status](https://gemnasium.com/bitaculous/initializify.svg)](https://gemnasium.com/bitaculous/initializify)
+
+Warning
+-------
+
+**Although potentially exciting, this is still really a WIP, use at your own risk.**
 
 Installation
 ------------
