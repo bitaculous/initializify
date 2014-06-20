@@ -20,9 +20,7 @@ Installation
 1.  Add initializify to your Gemfile:
 
     ```
-    group :assets do
-      gem 'vendorify', github: 'bitaculous/initializify'
-    end
+    gem 'vendorify', github: 'bitaculous/initializify'
     ```
 
 2.  Run `bundle install`
