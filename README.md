@@ -20,7 +20,7 @@ Installation
 1.  Add initializify to your Gemfile:
 
     ```
-    gem 'vendorify', github: 'bitaculous/initializify'
+    gem 'initializify', github: 'bitaculous/initializify'
     ```
 
 2.  Run `bundle install`
@@ -29,7 +29,7 @@ Bug Reports
 -----------
 
 Github Issues are used for managing bug reports and feature requests. If you run into issues, please search the issues
-and submit new problems [here](https://github.com/bitaculous/vendorify/issues "Github Issues").
+and submit new problems [here](https://github.com/bitaculous/initializify/issues "Github Issues").
 
 Versioning
 ----------
