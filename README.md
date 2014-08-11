@@ -48,5 +48,6 @@ Initializify is released under the [MIT License (MIT)], see [LICENSE].
 [LICENSE]: https://raw.githubusercontent.com/bitaculous/initializify/master/LICENSE "License"
 [MIT License (MIT)]: http://opensource.org/licenses/MIT "The MIT License (MIT)"
 [Rails]: http://rubyonrails.org "Ruby on Rails"
+[Semantic Versioning 2.0.0]: http://semver.org "Semantic Versioning 2.0.0"
 [Travis CI Status]: http://img.shields.io/travis/bitaculous/initializify.svg?style=flat "Travis CI Status"
 [Travis CI]: https://travis-ci.org/bitaculous/initializify "Initializify at Travis CI"
