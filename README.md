@@ -44,6 +44,7 @@ Initializify is released under the [MIT License (MIT)], see [LICENSE].
 
 [Gemnasium Status]: http://img.shields.io/gemnasium/bitaculous/initializify.svg?style=flat "Gemnasium Status"
 [Gemnasium]: https://gemnasium.com/bitaculous/initializify "Initializify at Gemnasium"
+[here]: https://github.com/bitaculous/initializify/issues "Github Issues"
 [Initializify]: http://bitaculous.github.io/initializify "Put in the condition appropriate to the start of an operation."
 [LICENSE]: https://raw.githubusercontent.com/bitaculous/initializify/master/LICENSE "License"
 [MIT License (MIT)]: http://opensource.org/licenses/MIT "The MIT License (MIT)"
