@@ -24,7 +24,7 @@ Installation
 
 2.  Run `bundle install`
 
-Bug reports
+Bug Reports
 -----------
 
 Github Issues are used for managing bug reports and feature requests. If you run into issues, please search the issues
@@ -42,13 +42,13 @@ License
 
 Initializify is released under the [MIT License (MIT)], see [LICENSE].
 
-[Gemnasium Status]: http://img.shields.io/gemnasium/bitaculous/initializify.svg?style=flat "Gemnasium Status"
 [Gemnasium]: https://gemnasium.com/bitaculous/initializify "Initializify at Gemnasium"
+[Gemnasium Status]: http://img.shields.io/gemnasium/bitaculous/initializify.svg?style=flat "Gemnasium Status"
 [here]: https://github.com/bitaculous/initializify/issues "Github Issues"
 [Initializify]: http://bitaculous.github.io/initializify "Put in the condition appropriate to the start of an operation."
 [LICENSE]: https://raw.githubusercontent.com/bitaculous/initializify/master/LICENSE "License"
 [MIT License (MIT)]: http://opensource.org/licenses/MIT "The MIT License (MIT)"
 [Rails]: http://rubyonrails.org "Ruby on Rails"
 [Semantic Versioning 2.0.0]: http://semver.org "Semantic Versioning 2.0.0"
-[Travis CI Status]: http://img.shields.io/travis/bitaculous/initializify.svg?style=flat "Travis CI Status"
 [Travis CI]: https://travis-ci.org/bitaculous/initializify "Initializify at Travis CI"
+[Travis CI Status]: http://img.shields.io/travis/bitaculous/initializify.svg?style=flat "Travis CI Status"
