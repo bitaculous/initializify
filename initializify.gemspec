@@ -6,15 +6,15 @@ $:.unshift lib unless $:.include? lib
 require 'initializify/version'
 
 Gem::Specification.new 'initializify', Initializify::VERSION do |spec|
-  spec.summary     = 'Put in the condition appropriate to the start of an operation.'
-  spec.author      = 'Maik Kempe'
-  spec.email       = 'mkempe@bitaculous.com'
-  spec.homepage    = 'https://bitaculous.github.io/initializify/'
-  spec.license     = 'MIT'
-
-  spec.files       = `git ls-files`.split($\)
-  spec.executables = spec.files.grep(/^bin/).map { |file| File.basename file }
-  spec.test_files  = spec.files.grep(/^(features|spec|test)/)
+  spec.summary          = 'Put in the condition appropriate to the start of an operation.'
+  spec.author           = 'Maik Kempe'
+  spec.email            = 'mkempe@bitaculous.com'
+  spec.homepage         = 'https://bitaculous.github.io/initializify/'
+  spec.license          = 'MIT'
+  spec.files            = `git ls-files`.split($\)
+  spec.executables      = spec.files.grep(/^bin/).map { |file| File.basename file }
+  spec.test_files       = spec.files.grep(/^(features|spec|test)/)
+  spec.extra_rdoc_files = ['LICENSE', 'README.md']
 
   spec.required_ruby_version = '~> 2.1'
 
