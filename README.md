@@ -1,12 +1,11 @@
 [Initializify]
 ==============
 
+[![Travis CI Status][Travis CI Status]][Travis CI] [![Gemnasium Status][Gemnasium Status]][Gemnasium]
+
 **Put in the condition appropriate to the start of an operation.**
 
 Initializify loads all ruby files in `config/initializers` like [Rails].
-
-[![Travis CI Status][Travis CI Status]][Travis CI]
-[![Gemnasium Status][Gemnasium Status]][Gemnasium]
 
 Warning
 -------
