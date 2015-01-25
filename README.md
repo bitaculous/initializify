@@ -23,6 +23,23 @@ Installation
 
 2.  Run `bundle install`
 
+Development
+-----------
+
+### Specs
+
+Use the `rspec` command to run the specs:
+
+```
+$ rspec
+```
+
+or via [Guard]:
+
+```
+$ guard -g spec
+```
+
 Bug Reports
 -----------
 
@@ -43,6 +60,7 @@ Initializify is released under the [MIT License (MIT)], see [LICENSE].
 
 [Gemnasium]: https://gemnasium.com/bitaculous/initializify "Initializify at Gemnasium"
 [Gemnasium Status]: https://img.shields.io/gemnasium/bitaculous/initializify.svg?style=flat "Gemnasium Status"
+[Guard]: http://guardgem.org "A command line tool to easily handle events on file system modifications."
 [here]: https://github.com/bitaculous/initializify/issues "Github Issues"
 [Initializify]: https://bitaculous.github.io/initializify/ "Put in the condition appropriate to the start of an operation."
 [LICENSE]: https://raw.githubusercontent.com/bitaculous/initializify/master/LICENSE "License"
