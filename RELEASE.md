@@ -7,7 +7,7 @@ Release
 STEPS:
 ------
 
-1. Bump version in `lib/bitaculous/initializify/version.rb` and `package.json`
+1. Bump version in `lib/bitaculous/initializify/version.rb`
 2. Push changes
 3. Create a tag
 
