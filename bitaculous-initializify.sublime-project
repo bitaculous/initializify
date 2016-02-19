@@ -1,7 +1,7 @@
 {
   "folders": [
     {
-      "name": "initializify",
+      "name": "bitaculous-initializify",
       "path": "./",
       "folder_exclude_patterns": [
         ".bundle",
