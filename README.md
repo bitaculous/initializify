@@ -32,10 +32,6 @@ or via [Guard]:
 $ guard -g spec
 ```
 
-### See Test Coverage
-
-Run `COVERAGE=true rspec`.
-
 ### Run [RuboCop]
 
 Run `rubocop`.
