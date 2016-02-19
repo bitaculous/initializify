@@ -6,8 +6,8 @@
     <title>Initializify by bitaculous</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -28,62 +28,68 @@
         </ul>
       </header>
       <section>
-        <p>Initializify loads all ruby files in <code>config/initializers</code> like <a href="http://rubyonrails.org" title="Ruby on Rails">Rails</a>.</p>
+        <p>Initializify loads all Ruby files in <code>config/initializers</code>, just like <a href="http://rubyonrails.org" title="Ruby on Rails">Rails</a>.</p>
 
 <h2>
-<a id="warning" class="anchor" href="#warning" aria-hidden="true"><span class="octicon octicon-link"></span></a>Warning</h2>
-
-<p><strong>Although potentially exciting, this is still really a WIP, use at your own risk.</strong></p>
-
-<h2>
-<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h2>
 
 <ol>
 <li>
 <p>Add Initializify to your Gemfile:</p>
 
-<pre><code>gem 'initializify', github: 'bitaculous/initializify'
-</code></pre>
+<div class="highlight highlight-source-ruby"><pre><span class="pl-k">gem</span> <span class="pl-s"><span class="pl-pds">'</span>bitaculous-initializify<span class="pl-pds">'</span></span>, <span class="pl-c1">github:</span> <span class="pl-s"><span class="pl-pds">'</span>bitaculous/initializify<span class="pl-pds">'</span></span></pre></div>
 </li>
-<li><p>Run <code>bundle install</code></p></li>
+<li><p>Run <code>bundle</code> to install all dependencies with <a href="http://bundler.io" title="The best way to manage a Ruby application's gems">Bundler</a></p></li>
 </ol>
 
 <h2>
-<a id="development" class="anchor" href="#development" aria-hidden="true"><span class="octicon octicon-link"></span></a>Development</h2>
+<a id="development" class="anchor" href="#development" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Development</h2>
 
 <h3>
-<a id="specs" class="anchor" href="#specs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Specs</h3>
+<a id="run-specs-with-rspec" class="anchor" href="#run-specs-with-rspec" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Run specs with <a href="http://rspec.info" title="Behaviour Driven Development for Ruby">RSpec</a>
+</h3>
 
-<p>Use the <code>rspec</code> command to run the specs:</p>
-
-<pre><code>$ rspec
-</code></pre>
+<p>Run <code>rspec</code>.</p>
 
 <p>or via <a href="http://guardgem.org" title="A command line tool to easily handle events on file system modifications.">Guard</a>:</p>
 
 <pre><code>$ guard -g spec
 </code></pre>
 
-<h2>
-<a id="code-status" class="anchor" href="#code-status" aria-hidden="true"><span class="octicon octicon-link"></span></a>Code Status</h2>
+<h3>
+<a id="see-test-coverage" class="anchor" href="#see-test-coverage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>See Test Coverage</h3>
 
-<p><a href="https://travis-ci.org/bitaculous/initializify" title="Initializify at Travis CI"><img src="https://img.shields.io/travis/bitaculous/initializify.svg?style=flat" alt="Travis CI Status" title="Travis CI Status"></a> <a href="https://gemnasium.com/bitaculous/initializify" title="Initializify at Gemnasium"><img src="https://img.shields.io/gemnasium/bitaculous/initializify.svg?style=flat" alt="Gemnasium Status" title="Gemnasium Status"></a></p>
+<p>Run <code>COVERAGE=true rspec</code>.</p>
+
+<h3>
+<a id="run-rubocop" class="anchor" href="#run-rubocop" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Run <a href="https://github.com/bbatsov/rubocop" title="A Ruby static code analyzer, based on the community Ruby style guide.">RuboCop</a>
+</h3>
+
+<p>Run <code>rubocop</code>.</p>
+
+<p>To run all specs and RuboCop altogether, run <code>rake</code>.</p>
 
 <h2>
-<a id="bug-reports" class="anchor" href="#bug-reports" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bug Reports</h2>
+<a id="code-status" class="anchor" href="#code-status" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Code Status</h2>
+
+<p><a href="https://travis-ci.org/bitaculous/initializify" title="Initializify at Travis CI"><img src="https://img.shields.io/travis/bitaculous/initializify.svg?style=flat" alt="Travis CI Status" title="Travis CI Status"></a>
+<a href="https://gemnasium.com/bitaculous/initializify" title="Initializify at Gemnasium"><img src="https://img.shields.io/gemnasium/bitaculous/initializify.svg?style=flat" alt="Gemnasium Status" title="Gemnasium Status"></a></p>
+
+<h2>
+<a id="bug-reports" class="anchor" href="#bug-reports" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Bug Reports</h2>
 
 <p>Github Issues are used for managing bug reports and feature requests. If you run into issues, please search the issues
 and submit new problems <a href="https://github.com/bitaculous/initializify/issues" title="Github Issues">here</a>.</p>
 
 <h2>
-<a id="versioning" class="anchor" href="#versioning" aria-hidden="true"><span class="octicon octicon-link"></span></a>Versioning</h2>
+<a id="versioning" class="anchor" href="#versioning" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Versioning</h2>
 
 <p>This library aims to adhere to <a href="http://semver.org" title="Semantic Versioning 2.0.0">Semantic Versioning 2.0.0</a>. Violations of this scheme should be reported as bugs.
 Specifically, if a minor or patch version is released that breaks backward compatibility, that version should be
 immediately yanked and / or a new version should be immediately released that restores compatibility.</p>
 
 <h2>
-<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h2>
 
 <p>Initializify is released under the <a href="http://opensource.org/licenses/MIT" title="The MIT License (MIT)">MIT License (MIT)</a>, see <a href="https://raw.githubusercontent.com/bitaculous/initializify/master/LICENSE" title="License">LICENSE</a>.</p>
       </section>
